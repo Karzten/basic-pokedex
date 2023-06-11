@@ -18,4 +18,3 @@ window.search.addEventListener('change', async () => {
     const pokemon = await getPokemon(window.search.value)
     updatePokemon(pokemon)
 })
-
